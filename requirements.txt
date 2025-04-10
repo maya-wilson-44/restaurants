@@ -1,6 +1,3 @@
 pandas
 requests
-streamlit
-datetime
-re
-Counter
+praw
