@@ -9,9 +9,9 @@ from collections import Counter
 # Set up Reddit API credentials
 def initialize_reddit():
     reddit = praw.Reddit(
-        client_id='BUCY1MsPqwHZZS60c88mfA',
-        client_secret='s4_lBBEdwkuIS9B2iPqz5VheEWQ2gw',
-        user_agent="RestaurantFinder/1.0 by mwilson17frog"
+        client_id=st.secrets["reddit"]["client_id"],
+        client_secret=st.secrets["reddit"]["client_secret"],
+        user_agent=st.secrets["reddit"]["user_agent"],    
     )
     return reddit
 
