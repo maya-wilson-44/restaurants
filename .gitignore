@@ -174,4 +174,4 @@ cython_debug/
 .pypirc
 
 #streamlit
-.streamlit/secrets.toml
+.streamlit/
